@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RedirectTemplate</name>
+    </assembly>
+    <members>
+        <member name="M:RedirectTemplate.Controllers.ProductController.Racks(System.String,System.String)">
+            <summary>
+            GERAR a URL para redirecionamento.
+            </summary>
+            <remarks>
+            Retorna a URL de redirecionamento
+            </remarks>
+            <returns>O retorno é a URL conforme o parâmetro informado</returns>
+            <param name="code"></param>
+            <param name="rack"></param>
+        </member>
+    </members>
+</doc>
