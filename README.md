@@ -8,12 +8,12 @@ O **RedirectTemplate** é uma aplicação ASP.NET Core que recebe códigos de pr
 
 ## 🛠️ Tecnologias
 
-- **ASP.NET Core 3.1** - Framework web
-- **Entity Framework Core 3.1** - ORM
+- **ASP.NET Core 8.0** - Framework web
+- **Entity Framework Core 8** - ORM
 - **MySQL** - Banco de dados principal (via Pomelo.EntityFrameworkCore.MySql)
 - **MongoDB** - Banco de dados alternativo
 - **Swagger/OpenAPI** - Documentação da API
-- **API Versioning** - Versionamento de endpoints
+- **API Versioning** - Versionamento de endpoints (via Asp.Versioning)
 
 ## 🏗️ Arquitetura
 
@@ -60,7 +60,7 @@ Controllers → Services → Business → Repository → Database
 
 ### Pré-requisitos
 
-- [.NET Core 3.1 SDK](https://dotnet.microsoft.com/download/dotnet/3.1)
+- [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet/8.0)
 - MySQL Server
 - (Opcional) MongoDB Server
 
@@ -181,8 +181,7 @@ RedirectTemplate/
 ├── Service/            # Camada de serviços
 │   └── Interface/      # Interfaces dos Services
 ├── Properties/         # Configurações de execução
-├── Program.cs          # Ponto de entrada
-├── Startup.cs          # Configuração da aplicação
+├── Program.cs          # Ponto de entrada e configuração
 └── appsettings.json    # Configurações
 ```
 

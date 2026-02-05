@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Asp.Versioning;
+using Microsoft.AspNetCore.Mvc;
 using RedirectTemplate.Service;
 using Swashbuckle.AspNetCore.Annotations;
 
